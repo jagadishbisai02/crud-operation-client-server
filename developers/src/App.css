@@ -1,0 +1,112 @@
+/*button animations*/
+.add-btn {
+  background: #5a8f7b;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  margin-top: 25px;
+  padding: 5px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+}
+
+.btn-adds,
+.btn-adds:hover {
+  color: #fff;
+}
+
+.btn-adds:after,
+.btn-adds:before {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.add-btn span {
+  position: relative;
+}
+
+.add-btn {
+  background-color: #2f4858;
+  border-radius: 3px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.add-btn:before {
+  background: #5a8f7b;
+  content: "";
+  left: -12%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+  width: 125%;
+}
+
+.add-btn:hover:before {
+  transform: translate3d(100%, 0, 0);
+}
+
+
+/* table styles */
+.data-table {
+  margin-top: 50px;
+}
+
+.data-table table {
+  box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.data-table table thead tr {
+  background-color: #fecdfe;
+}
+.data-table table thead tr th,
+.data-table table tbody tr td {
+  min-width: 200px;
+  padding: 10px;
+  text-align: start;
+  border-right: 3px solid #fff;
+}
+
+.data-table table tbody tr td {
+  border-bottom: 1px solid #2f4858;
+}
+
+.data-table table p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.edit-btn {
+  background: #4b89cb;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  margin-right: 6px;
+  padding: 5px 26px;
+  pointer-events: auto;
+  text-align: center;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.delete-btn {
+  background: #d16ea4;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  margin-right: 6px;
+  padding: 5px 26px;
+  pointer-events: auto;
+  text-align: center;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+}
